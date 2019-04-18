@@ -1,0 +1,36 @@
+#main-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-container form {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+}
+
+#main-container form input {
+  height: 48px;
+  border: 1px solid aqua;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 0 20px;
+  font-size: 15px;
+}
+
+#main-container form button {
+  background-color: blueviolet;
+  color: azure; 
+  border-radius: 5px;
+  border: 0;
+  height: 40px;
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#main-container form button:hover {
+  opacity: 0.8;
+}
